@@ -1,0 +1,10 @@
+//search
+			NEW_AFFECT_QUEST_START_IDX   = 1000,
+
+//add before
+
+#ifdef ENABLE_IKASHOP_RENEWAL
+#ifdef EXTEND_IKASHOP_ULTIMATE
+			NEW_AFFECT_SEARCH_SHOP_PREMIUM = 550,
+#endif
+#endif

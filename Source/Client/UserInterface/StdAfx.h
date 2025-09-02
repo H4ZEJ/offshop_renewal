@@ -1,0 +1,29 @@
+//search
+enum
+{
+	POINT_MAX_NUM = 255,
+	CHARACTER_NAME_MAX_LEN = 24,
+#if defined(LOCALE_SERVICE_JAPAN)
+	PLAYER_NAME_MAX_LEN = 16,
+#else
+	PLAYER_NAME_MAX_LEN = 12,
+#endif
+
+//add after
+#ifdef ENABLE_IKASHOP_RENEWAL
+	OFFLINE_SHOP_NAME_MAX_LEN = 15 + CHARACTER_NAME_MAX_LEN +1,
+#ifdef ENABLE_CHEQUE_SYSTEM
+	YANG_PER_CHEQUE = 100'000'000,
+#endif
+#ifdef EXTEND_IKASHOP_PRO
+	OFFLINESHOP_NOTIFICATION_FORMAT_LEN = 40,
+#endif
+#endif
+
+//search
+void initMessenger();
+
+//add after
+#ifdef ENABLE_IKASHOP_RENEWAL
+void initikashop();
+#endif
