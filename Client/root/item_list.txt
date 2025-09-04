@@ -1,3 +1,0 @@
-51998	ETC	ikashop/ultimate/item/51998.png
-51999	ETC	ikashop/ultimate/item/51999.png
-52000	ETC	ikashop/ultimate/item/52000.png
